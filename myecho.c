@@ -2,6 +2,13 @@
 
 int main(int argc, char* argv[], char* envp[]) 
 {
-  printf("test123");	
+  int i = 1;
+  char str[15];
+  while(i < argc) {
+    printf(argv[i]);
+    printf("\n");
+    i++;	
+ }
+  
   return 0;
 }
