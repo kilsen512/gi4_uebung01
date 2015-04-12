@@ -2,7 +2,7 @@ CC = gcc
 
 .PHONY: all default clean
 
-default: myecho
+default: myecho myexec isset myenv
 
 all: myecho
 
